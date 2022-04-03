@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Shopping.Data.Entities
+namespace Elite_Training_Club.Data.Entities
 {
     public class Country
     {
@@ -9,8 +9,8 @@ namespace Shopping.Data.Entities
 
 
         [Display(Name = "País")]
-        [MaxLength(50, ErrorMessage = "El campo {0} debe tener máximo {1} caracteres.")]
-        [Required(ErrorMessage = "El campo {0} es obligatorio.")]
+        [MaxLength(50, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]
+        [Required(ErrorMessage = "El campo {0} s obligatorio.")]
         public string Name { get; set; }
     }
 }
